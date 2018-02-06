@@ -3,7 +3,7 @@ import os
 from bs4 import BeautifulSoup
 
 URL = "https://xkcd.com/"
-PATH = "Desktop/XKCD"
+PATH = "XKCD"
 FILE = "XKCD"
 
 if not os.path.exists(PATH):
