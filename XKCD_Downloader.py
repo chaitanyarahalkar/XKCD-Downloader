@@ -12,7 +12,7 @@ os.chdir(PATH)
 
 for counter in range(1,1000):
 	r = requests.get(URL+str(counter))
-	soup = BeautifulSoup(r.content,'html5lib')
+	soup = BeautifulSoup(r.content,'lxml')
 	get_src = soup.findAll('img')[1].attrs
 	src = 'http:'+ get_src['src']
 	r = requests.get(src)
