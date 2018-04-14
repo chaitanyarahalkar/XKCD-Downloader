@@ -2,4 +2,4 @@ language: python
 
 install: pip install bs4 
 
-script: pytest
+script: python XKCD_Downloader.py
