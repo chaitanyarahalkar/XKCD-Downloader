@@ -1,4 +1,3 @@
 language: python
 
-install:
-  -pip install bs4 
+install: pip install bs4 
