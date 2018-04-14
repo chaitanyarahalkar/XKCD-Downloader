@@ -2,4 +2,4 @@ language: python
 
 install: pip install bs4 
 
-script: make test
+script: pytest
